@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+  <body>
+    <div class="navibar">
+      <div class="navidabba">
+      <a id="logo" href="#" class="navlinks">Malli</a>
+      <a href="#" class="navlinks">Home</a>
+      <a class="features navlinks" href="#">Features</a>
+      <a class="features navlinks" href="#">Pricing</a>
+      <a class="features navlinks" href="#">About</a>
+      <span class="right_content">
+        <input type="text" id="search" placeholder="Search" class="nav-input" />
+        <button class="nav-btn">Search</button>
+      </span>
+      </div>
+    </div>
+    <div class="banner">
+      <div class="banner-text">
+        <h1 class="banner-h1">Malleswari Poreddy</h1>
+        <p class="banner-para">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was
+          popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+        <div class="banner-links">
+          <a class="banner-link" href="https://github.com/Malleswari-Poreddy"
+            >github</a
+          >
+          <a
+            class="banner-link"
+            id="banner-link-fb"
+            href="https://www.facebook.com/profile.php?id=100009416706340"
+            >facebook</a
+          >
+        </div>
+      </div>
+      <img
+        class="banner-img"
+        src="https://firebasestorage.googleapis.com/v0/b/clone-e4c78.appspot.com/o/IMG_20180616_150412_Bokeh.jpg?alt=media&token=e2d8a971-fd45-46f1-bc7f-7a92abe2b318"
+        alt="tajmahal"
+      />
+    </div>
+
+    <!-- Form starts here!!! -->
+    <br />
+    <form id="my_form">
+      <div>
+        <label for="name" class="form-label">Name:</label>
+        <input
+          type="text"
+          placeholder="name"
+          id="name"
+          value="malli"
+          class="form-input"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="age" class="form-label">Age:</label>
+        <input
+          type="number"
+          placeholder="age"
+          id="age"
+          value="28"
+          class="form-input"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="gender" class="form-label"> Select you gender:</label>
+        <select name="gender" class="form-input">
+          <option value="none" selected>Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="number" class="form-label">Phone number:</label>
+        <input
+          type="number"
+          placeholder="number"
+          id="number"
+          value="9573193158"
+          class="form-input"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="gmail" class="form-label">Gmail:</label>
+        <input
+          type="gmail"
+          placeholder="gmail"
+          id="gmail"
+          value="malleswariporeddy@gmail.com"
+          class="form-input"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="password" class="form-label">Password:</label>
+        <input
+          type="password"
+          placeholder="password"
+          id="password"
+          value="hemachadra"
+          class="form-input"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="my intrest in reading" class="form-label">Points :</label>
+        <input
+          type="range"
+          id="points"
+          name="points"
+          min="0"
+          max="100"
+          value="80"
+          class="form-input"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="application-date" class="form-label form-label-color"
+          >Application-date:</label
+        >
+        <input
+          type="Date"
+          placeholder="application-date"
+          id="application-date"
+          class="form-input-date"
+        />
+      </div>
+      <br />
+      <div>
+        <label for="color" class="form-label form-label-color"
+          >favourite-color:</label
+        >
+        <input
+          type="color"
+          placeholder="color"
+          id="favourite-color"
+          value="#fdc46f"
+        />
+      </div>
+      <br />
+      <div>
+        <button type="submit" form="my_form" class="form-submit">Submit</button>
+      </div>
+    </form>
+    <!-- Form ends here!!! -->
+
+    <!-- Table starts here! -->
+    <div class="table-div">
+      <table id="my-table">
+        <!-- table head starts here!!! -->
+        <thead class="my-table-head">
+          <tr>
+            <th class="my-table-head-row-h">SNo</th>
+            <th class="my-table-head-row-h">Name</th>
+            <th class="my-table-head-row-h">Mobile no</th>
+            <th class="my-table-head-row-h">Village</th>
+          </tr>
+        </thead>
+        <!-- table head ends here!!! -->
+
+        <!-- table body starts here!!! -->
+        <tbody>
+          <tr class="my-table-body-row">
+            <td><strong>1<strong></td>
+            <td>Malli</td>
+            <td>9573193158</td>
+            <td>Kolimigundla</td>
+          </tr>
+          <tr class="my-table-body-row">
+            <td><strong>2<strong></td>
+            <td>Sumi</td>
+            <td>6304207529</td>
+            <td>Kolimigundla</td>
+          </tr>
+          <tr class="my-table-body-row">
+            <td><strong>3<strong></td>
+            <td>Dwarak</td>
+            <td>9177119925</td>
+            <td>Kolimigundla</td>
+          </tr>
+          <tr class="my-table-body-row">
+            <td><strong>4<strong></td>
+            <td>Hemu</td>
+            <td>9573193158</td>
+            <td>Kolimigundla</td>
+          </tr>
+        </tbody>
+        <!-- table body ends here!!! -->
+
+        <!-- table foot starts here!!! -->
+        <tfoot>
+          <tr class="my-table-body-row">
+            <td><strong>5<strong></td>
+            <td>Family</td>
+            <td>9177119925</td>
+            <td>Kolimigundla</td>
+          </tr>
+        </tfoot>
+        <!-- table foot ends here!!! -->
+      </table>
+    </div>
+
+    <!-- Table ends here!!! -->
+  </body>
+  <footer class="my-footer">
+
+  </footer>
+</html>
